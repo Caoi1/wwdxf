@@ -97,7 +97,7 @@ export default {
 
                     config_JSON = await 读取config_JSON(env, host, userID);
 
-                    if (访问路径 === 'admin/init') {// 重置配置为默认值
+                    if (访问路径 === 'admin/init') {// 重置配置为默认值嘻嘻嘻嘻
                         try {
                             config_JSON = await 读取config_JSON(env, host, userID, true);
                             ctx.waitUntil(请求日志记录(env, request, 访问IP, 'Init_Config', config_JSON));
@@ -2460,3 +2460,4 @@ async function html1101(host, 访问IP) {
 </body>
 </html>`;
 }
+
